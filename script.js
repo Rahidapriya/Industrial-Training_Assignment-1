@@ -96,10 +96,10 @@ function calculateBudget() {
     console.log('income hoise',income);
     console.log('expense hoise',expense);
     totalSum=parseFloat(income)-parseFloat(expense);
-    if(totalSum>=0){
+   
         console.log('total budget hoise',totalSum);
         totalBudget.innerHTML = formatMoney(totalSum);
-    }
+   
     // else{
     //     alert('No Income No Expense')
     //     return;
